@@ -1,2 +1,0 @@
-fn(State<AppState>, axum::extract::Path<usize>) -> impl Future<Output = Result<Json<Todo>, StatusCode>> {complete_todo}
-fn(State<AppState>, axum::extract::Path<usize>) -> impl Future<Output = Result<Json<Todo>, StatusCode>> {complete_todo}: Handler<_, _>
