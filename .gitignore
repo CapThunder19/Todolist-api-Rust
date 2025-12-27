@@ -1,0 +1,12 @@
+# Rust build output
+/target
+
+# Environment variables
+.env
+
+# Database files 
+*.db
+
+# OS / Editor junk
+.DS_Store
+.vscode/
