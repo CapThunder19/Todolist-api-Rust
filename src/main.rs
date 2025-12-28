@@ -39,7 +39,7 @@ async fn main() {
         .route("/todo/{id}/complete", patch(complete_todo))
         .with_state(state);
 
-    println!("🚀 Server running at http://localhost:3000");
+    println!("Server running at http://localhost:3000");
 
     let listener = tokio::net::TcpListener::bind("127.0.0.1:3000")
         .await
